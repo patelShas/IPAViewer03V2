@@ -1,0 +1,13 @@
+#pronunciationLabel{
+    -fx-font-size: 48;
+}
+
+#fontSizeSelection{
+    -fx-pref-width: 200;
+}
+
+.root{
+    -fx-font-size: 24;
+    -fx-pref-width: 1200;
+    -fx-pref-height: 750;
+}

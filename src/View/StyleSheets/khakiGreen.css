@@ -1,0 +1,54 @@
+.root {
+    -darkest-color: #6b705c;
+    -middle-color: #a5a58d;
+    -lightest-color: #b7b7a4;
+
+    -fx-background-color: -darkest-color;
+    -fx-accent: -lightest-color;
+    -fx-border-color: -lightest-color;
+    -fx-border-width: 5px;
+}
+
+.tab-header-background {
+    -fx-background-color: -lightest-color;
+}
+
+.tab {
+    -fx-background-color: -darkest-color;
+}
+
+.split-pane {
+    -fx-background-color: -darkest-color;
+}
+
+.tab-pane{
+    -fx-background-color: -darkest-color;
+}
+
+.text-field{
+    -fx-background-color: -middle-color;
+    -fx-prompt-text-fill: -darkest-color;
+    -fx-border-color: -lightest-color;
+    -fx-border-width: 5px;
+}
+
+.text-area{
+    -fx-control-inner-background: -middle-color;
+    -fx-prompt-text-fill: -darkest-color;
+    -fx-border-color: -lightest-color;
+    -fx-border-width: 5px;
+}
+
+.list-view {
+    -fx-control-inner-background: -middle-color;
+    -fx-border-color: -lightest-color;
+    -fx-border-width: 5px;
+}
+
+.radio-button > .radio {
+    -fx-body-color: -lightest-color;
+}
+
+.radio-button:selected > .radio > .dot {
+    -fx-mark-color: -darkest-color;
+}
